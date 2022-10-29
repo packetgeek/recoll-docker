@@ -51,10 +51,10 @@ recollstatus
 ```
 
 ## The screenshot
+![Screenshot](recoll-screenshot.png)
 As noted above, the screenshot shows two results for a sarch on "islr analytics" (without the quotes).  Both of the entries are from ebooks that Packt Publishing had offered during their one-free-book-per-day era.
 
 The first result is for a file that has additional metadata embedded in it (think exiftool).  These incldue: title, author, and tags.  The second result is for a file that lacks the embedded metadata.  By default, Recoll includes the ability to extract the metadata from the files, so it was simple to add them to the results.  The dates shown indicate when I'd copied the file into the folder, not the actual publication dates.  That date is actually in the metadata and it should be easy enough to extract/display that date, if you so desired.
-
 
 ## Wish List
 Let me know if there's any features that you want added. While I'll probably balk at modifyiing the core search engine, I'm willing to modify my own code (e.g., what I've done to the web interface).
