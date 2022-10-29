@@ -6,6 +6,7 @@ This repo contains scripts that will build a Docker container that hosts:
 - the Recoll search engine
 - the web front-end to the Recoll search engine
 - the recollstatus script, which will show the status of an in-progress recollindex session
+- an Apache2 interface to the files folder
 
 Over the years, I've experimented with a number document search engines.  Most don't have a web front-end, which limited choices to only a handful.  The engine that I initially settled on for long term home lab use was Recoll.  It was nice because I was able to tweak how the results were displayed in the web interface.
 
